@@ -90,7 +90,32 @@
 }
 
 
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #213547;
+  /* margin-bottom: 10px; */
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: #747bff;
 
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: #00ff6a;
+  text-align: center;
+  margin: 0;
+
+}
+
+.list-items li:hover{
+  color: #0d4d28;
+  background-color: azure;
+  cursor: pointer;
+}
 
 
 
