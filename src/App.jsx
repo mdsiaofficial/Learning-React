@@ -12,6 +12,8 @@ import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
 import ProfilePicture from "./ProfilePicture.jsx"
 import MyComp from "./MyComp.jsx"
+import Counter from "./Counter.jsx"
+import MyComp2 from "./MyComp2.jsx"
 function App() {
 
 	const foods = [ {id:1, cal: 65, foodname: "Ruti",},
@@ -53,6 +55,10 @@ function App() {
 
 			<ProfilePicture></ProfilePicture>
 			<MyComp></MyComp>
+
+			<Counter></Counter>
+
+			<MyComp2></MyComp2>
 			<Footer></Footer>
 		</div>
 	);

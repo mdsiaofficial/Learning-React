@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function MyComp() {
     const [name, setName] = useState("Guest");
-    const [age, setAge] = useState("0");
+    const [age, setAge] = useState(0);
     const [isEmployed, setIsEmployed] = useState(false);
 
     const updateName = () => {

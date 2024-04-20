@@ -117,7 +117,29 @@
   cursor: pointer;
 }
 
+.counter-container{
+  text-align: center;
+  font: 800;
+}
 
+.count-display{
+  font-size: 10em;
+  /* margin-top: 0; */
+  margin-bottom: 20px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  margin: 20px 5px;
+  background-color: #535bf2;
+  color: #00ff6a;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 
 
