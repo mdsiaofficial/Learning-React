@@ -11,7 +11,7 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx"
 import List from "./List.jsx"
 import ProfilePicture from "./ProfilePicture.jsx"
-
+import MyComp from "./MyComp.jsx"
 function App() {
 
 	const foods = [ {id:1, cal: 65, foodname: "Ruti",},
@@ -52,6 +52,7 @@ function App() {
 			</div>
 
 			<ProfilePicture></ProfilePicture>
+			<MyComp></MyComp>
 			<Footer></Footer>
 		</div>
 	);
