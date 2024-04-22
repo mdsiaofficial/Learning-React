@@ -14,6 +14,10 @@ import ProfilePicture from "./ProfilePicture.jsx"
 import MyComp from "./MyComp.jsx"
 import Counter from "./Counter.jsx"
 import MyComp2 from "./MyComp2.jsx"
+import ColorPicker from "./ColorPicker.jsx"
+import MyComp3 from "./MyComp3.jsx"
+import TodoList from "./Todo_List.jsx"
+
 function App() {
 
 	const foods = [ {id:1, cal: 65, foodname: "Ruti",},
@@ -59,6 +63,12 @@ function App() {
 			<Counter></Counter>
 
 			<MyComp2></MyComp2>
+
+			<ColorPicker></ColorPicker>
+
+			<MyComp3></MyComp3>
+
+			<TodoList></TodoList>
 			<Footer></Footer>
 		</div>
 	);
