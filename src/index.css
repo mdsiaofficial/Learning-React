@@ -214,6 +214,19 @@ button{
   transition: backgrou-color 0.5 ease;
 }
 
+.clock-container{
+  /* background-color:black ; */
+
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 4px 5px 3px #535bf2;
+}
+
 
 
 

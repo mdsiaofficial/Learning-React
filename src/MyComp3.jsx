@@ -61,6 +61,8 @@ function MyComp3() {
         setCarBrand(e.target.value);
     }
     
+
+    
     return (
         <div>
             <p>My favorite car is: {car.year} {car.brand} {car.model} </p>

@@ -17,7 +17,8 @@ import MyComp2 from "./MyComp2.jsx"
 import ColorPicker from "./ColorPicker.jsx"
 import MyComp3 from "./MyComp3.jsx"
 import TodoList from "./Todo_List.jsx"
-
+import MyComp4 from "./MyComp4.jsx"
+import DigitalClock from "./DigitalClock.jsx"
 function App() {
 
 	const foods = [ {id:1, cal: 65, foodname: "Ruti",},
@@ -69,6 +70,11 @@ function App() {
 			<MyComp3></MyComp3>
 
 			<TodoList></TodoList>
+
+			<MyComp4></MyComp4>
+
+			<DigitalClock></DigitalClock>
+			
 			<Footer></Footer>
 		</div>
 	);
