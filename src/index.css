@@ -215,7 +215,7 @@ button{
 }
 
 .clock-container{
-  /* background-color:black ; */
+  background-color:black ;
 
 }
 
@@ -228,8 +228,10 @@ button{
 }
 
 
-
-
+.box{
+  border: 2px solid red;
+  padding: 25px;
+}
 
 
 /* others */

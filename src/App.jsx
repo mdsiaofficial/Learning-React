@@ -19,6 +19,8 @@ import MyComp3 from "./MyComp3.jsx"
 import TodoList from "./Todo_List.jsx"
 import MyComp4 from "./MyComp4.jsx"
 import DigitalClock from "./DigitalClock.jsx"
+import CompA from "./CompA.jsx"
+
 function App() {
 
 	const foods = [ {id:1, cal: 65, foodname: "Ruti",},
@@ -37,18 +39,18 @@ function App() {
 		<div>
 			<Header></Header>
 
-			<Food></Food>
+			{/* <Food></Food>
 			<Card></Card>
 
 			<Student name="Ashiq" age={25} isStudent={true}></Student>
 			<Student name="Anika" age={15} isStudent={true}></Student>
 			<Student name="Amena" age={48} isStudent={false}></Student>
 			<Student name="Kabir" age={53} isStudent={false}></Student>
-			<Student name="Roni" age={25} isStudent={true}></Student>
+			<Student name="Roni" age={25} isStudent={true}></Student> */}
 
-			<Button></Button>
+			{/* <Button></Button>
 
-			<UserGreeting isLoggedIn={true} name="Ashiq"></UserGreeting>
+			<UserGreeting isLoggedIn={true} name="Ashiq"></UserGreeting> */}
 
 			<div>
 				{/* using ternary operator */}
@@ -57,7 +59,7 @@ function App() {
 				{/* using short circuit */}
 				{veg.length > 0 && <List items={veg} category="veg"></List>}
 			</div>
-
+{/* 
 			<ProfilePicture></ProfilePicture>
 			<MyComp></MyComp>
 
@@ -74,7 +76,12 @@ function App() {
 			<MyComp4></MyComp4>
 
 			<DigitalClock></DigitalClock>
-			
+			<DigitalClock></DigitalClock>
+			<DigitalClock></DigitalClock>
+			<DigitalClock></DigitalClock>
+			 */}
+
+			<CompA></CompA>
 			<Footer></Footer>
 		</div>
 	);
