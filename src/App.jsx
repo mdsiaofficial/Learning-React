@@ -38,17 +38,17 @@ function App() {
 	return (
 		<div>
 			<Header></Header>
-
-			{/* <Food></Food>
+{/* 
+			<Food></Food>
 			<Card></Card>
 
 			<Student name="Ashiq" age={25} isStudent={true}></Student>
 			<Student name="Anika" age={15} isStudent={true}></Student>
 			<Student name="Amena" age={48} isStudent={false}></Student>
 			<Student name="Kabir" age={53} isStudent={false}></Student>
-			<Student name="Roni" age={25} isStudent={true}></Student> */}
+			<Student name="Roni" age={25} isStudent={true}></Student>
 
-			{/* <Button></Button>
+			<Button></Button>
 
 			<UserGreeting isLoggedIn={true} name="Ashiq"></UserGreeting> */}
 
@@ -59,8 +59,8 @@ function App() {
 				{/* using short circuit */}
 				{veg.length > 0 && <List items={veg} category="veg"></List>}
 			</div>
-{/* 
-			<ProfilePicture></ProfilePicture>
+
+			{/* <ProfilePicture></ProfilePicture>
 			<MyComp></MyComp>
 
 			<Counter></Counter>
@@ -78,8 +78,8 @@ function App() {
 			<DigitalClock></DigitalClock>
 			<DigitalClock></DigitalClock>
 			<DigitalClock></DigitalClock>
-			<DigitalClock></DigitalClock>
-			 */}
+			<DigitalClock></DigitalClock> */}
+			
 
 			<CompA></CompA>
 			<Footer></Footer>

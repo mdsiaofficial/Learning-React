@@ -1,9 +1,12 @@
 import CompD from "./CompD"
-export default function CompC(props) {
+import { UserContext } from "./CompA"
+import { useContext } from "react"
+export default function CompC() {
+    const user = useContext(UserContext);
     return (
         <div className="box">
             <h1 className="comp_c">Component C</h1>
-            <CompD user={props.user}></CompD>
+            <CompD user={user}></CompD>
         </div>
     )
 }

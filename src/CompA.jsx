@@ -10,12 +10,11 @@ export default function CompA() {
         <div className="box">
             <h1 className="comp_a">Component A</h1>
             <h2>{`Hi, ${user}`}</h2>
-            
-            <UserContext.Provider value={user}>
-                <CompB user = {user}></CompB>
-            </UserContext>
-
             {/* <CompB user = {user}></CompB> */}
+
+            <UserContext.Provider value={user}>
+                <CompB user={user}></CompB>
+            </UserContext.Provider>
         </div>
     )
 }
