@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from "react";
+import {useState, useEffect, useRef} from "react";
 export default function Stopwatch() {
     const [isRunning, setIsRunning] = useState(false);
     const [elapsedTime, setElapsedTime] = useState(0);
@@ -42,8 +42,8 @@ export default function Stopwatch() {
         hh = String(hh).padStart(2, "0");
         mm = String(mm).padStart(2, "0");
         ss = String(ss).padStart(2, "0");
-        ms = String(ms).padStart(2, "0");
-        
+        // ms = String(ms).padStart(2, "0");
+
         // return `00:00:00`;
         return `${hh}:${mm}:${ss}`;
     }
