@@ -234,7 +234,57 @@ button{
   padding: 25px;
 }
 
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 8px;
+  background-color: #213547;
+  padding: 5px;
+  margin: 20px;
 
+}
+
+.display{
+  font-size: 4rem;
+  font-family: "ibm-plex-mono";
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 3px 3px 3px #052ace;
+}
+
+.controls button{
+  transform: background-color 0.5s ease ;
+}
+
+.start-btn{
+  background-color: #00ff6a2f;
+  /* color: #1a1a1a; */
+}
+.reset-btn{
+  background-color: #008cff2f;
+  /* color: #1a1a1a; */
+}
+.stop-btn{
+  background-color: #ff000031;
+  /* color: #1a1a1a; */
+}
+
+
+
+.start-btn:hover{
+  background-color: #00ff6a71;
+  /* color: #1a1a1a; */
+}
+.reset-btn:hover{
+  background-color: #008cff96;
+  /* color: #1a1a1a; */
+}
+.stop-btn:hover{
+  background-color: #ff00007c;
+  /* color: #1a1a1a; */
+}
 /* others */
 a {
   font-weight: 500;

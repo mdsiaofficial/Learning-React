@@ -20,6 +20,7 @@ import TodoList from "./Todo_List.jsx"
 import MyComp4 from "./MyComp4.jsx"
 import DigitalClock from "./DigitalClock.jsx"
 import CompA from "./CompA.jsx"
+import Stopwatch from "./Stopwatch.jsx"
 
 function App() {
 
@@ -38,7 +39,8 @@ function App() {
 	return (
 		<div>
 			<Header></Header>
-{/* 
+			<Stopwatch></Stopwatch>
+
 			<Food></Food>
 			<Card></Card>
 
@@ -50,7 +52,7 @@ function App() {
 
 			<Button></Button>
 
-			<UserGreeting isLoggedIn={true} name="Ashiq"></UserGreeting> */}
+			<UserGreeting isLoggedIn={true} name="Ashiq"></UserGreeting>
 
 			<div>
 				{/* using ternary operator */}
@@ -60,7 +62,7 @@ function App() {
 				{veg.length > 0 && <List items={veg} category="veg"></List>}
 			</div>
 
-			{/* <ProfilePicture></ProfilePicture>
+			<ProfilePicture></ProfilePicture>
 			<MyComp></MyComp>
 
 			<Counter></Counter>
@@ -78,7 +80,7 @@ function App() {
 			<DigitalClock></DigitalClock>
 			<DigitalClock></DigitalClock>
 			<DigitalClock></DigitalClock>
-			<DigitalClock></DigitalClock> */}
+			<DigitalClock></DigitalClock>
 			
 
 			<CompA></CompA>
